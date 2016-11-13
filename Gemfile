@@ -8,6 +8,7 @@ gem 'rails', '3.2.0'
 #gem 'sqlite3'
 
 gem 'sqlite3-ruby', '1.3.3', :group => :development
+gem 'test-unit'
 gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'will_paginate', '3.1.5'
 gem 'annotate',
@@ -23,7 +24,7 @@ end
 group :test do
   gem 'rspec', '2.5.0'
   gem 'webrat', '0.7.1'
-  gem 'spork', '0.8.4'
+  gem 'spork', '0.9.2'
   gem 'factory_girl_rails', '1.0'
 end
 
